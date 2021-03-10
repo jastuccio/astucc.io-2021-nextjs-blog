@@ -9,10 +9,12 @@ built with React & Next.js
 - convert to TypeScript
 - add Sanitize.css
 - import dev.to posts
+- web design in 4 minutes https://jgthms.com/web-design-in-4-minutes/#spacing
 - set up prettier/eslint
 - Add category tags
-- find secrets, "porcess.env.###" and add them to a .env file
+- find secrets, "process.env.###" and add them to a .env file
 - favicon? ❌
+- a11y accessibility testing https://www.a11yproject.com/resources/#development-tools
 - point astucc.io to this new blog site
 
 ## Done:
