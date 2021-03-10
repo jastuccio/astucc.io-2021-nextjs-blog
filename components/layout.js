@@ -1,13 +1,30 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import styled, { createGlobalStyle } from 'styled-components';
+// import Header from './Header';
+
+const GlobalStyles = createGlobalStyle`
+  main {
+    /* background: green; */
+    width: 60ch;
+    padding: 2ch;
+    margin: auto;
+
+  }
+  main div{
+    
+    /* background: red; */
+  }
+`
 
 const name = 'Joe Astuccio'
 export const siteTitle = 'astucc.io - my personal blog'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
   return (
-    <div>
+    <>
+      <GlobalStyles />
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -35,7 +52,9 @@ export default function Layout({ children, home }) {
             /> */}
             <h1>{name}</h1>
       </header>
-      <main>{children}</main>
-    </div>
+      <main>
+        <div>{children}</div>
+        </main>
+    </>
   )
 }
