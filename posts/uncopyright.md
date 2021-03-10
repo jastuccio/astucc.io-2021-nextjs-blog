@@ -15,9 +15,9 @@ This blog contains a lot of gathered information that helps me write code. Much 
 - [Wes Bos](wesbos.com)
 - [Brad Traversy](https://www.traversymedia.com/)
 - [Jonas Schmedtmann](codingheroes.io)
-- [Lennart](https://www.lekoarts.de/en)
+<!-- - [Lennart](https://www.lekoarts.de/en) -->
 - [Flavio Copes](https://flaviocopes.com/)
-- [The Gatsby Docs](https://www.gatsbyjs.org/docs/)
+<!-- - [The Gatsby Docs](https://www.gatsbyjs.org/docs/) -->
 - [Dev.to](https://dev.to/)
 - [FreeCodeCamp](https://www.freecodecamp.org/)
 - various blogs, YouTube channels, and podcasts
