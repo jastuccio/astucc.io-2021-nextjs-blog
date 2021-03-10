@@ -1,0 +1,8 @@
+export { default as Code } from './Code'
+export { default as Codepen } from './Codepen'
+export { default as DevDotTo } from './DevDotTo'
+export { default as FreeCodeCamp } from './FreeCodeCamp'
+export { default as Github } from './Github'
+export { default as Instagram } from './Instagram'
+export { default as LinkedinSquare } from './LinkedinSquare'
+export { default as NextDotJs } from './NextDotJs'
