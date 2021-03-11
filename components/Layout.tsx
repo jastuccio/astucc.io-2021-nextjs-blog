@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
 import styled, { createGlobalStyle } from 'styled-components';
 // import Header from './Header';
 
@@ -10,27 +10,24 @@ const GlobalStyles = createGlobalStyle`
     width: 60ch;
     padding: 2ch;
     margin: auto;
-
+    line-height: 1.5rem;
   }
   main div{
     
     /* background: red; */
   }
-`
+`;
 
-const name = 'Joe Astuccio'
-export const siteTitle = 'astucc.io - my personal blog'
+const name = 'Joe Astuccio';
+export const siteTitle = 'Joe Astuccio';
 
-export default function Layout({ children }) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <GlobalStyles />
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="Joe Astuccio"
-          content="My blog built using Next.js"
-        />
+        <meta name="Joe Astuccio" content="My blog built using Next.js" />
         {/* <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
@@ -41,7 +38,7 @@ export default function Layout({ children }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header>
-            {/* <Image
+        {/* <Image
               priority
               // src="/images/profile.jpg"
               // src={myCloudinaryResponse.public_id} width="150" height="150"
@@ -50,11 +47,11 @@ export default function Layout({ children }) {
               width={144}
               alt={name}
             /> */}
-            <h1>{name}</h1>
+        <h1>{name}</h1>
       </header>
       <main>
         <div>{children}</div>
-        </main>
+      </main>
     </>
-  )
+  );
 }
