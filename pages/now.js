@@ -10,6 +10,9 @@ return (
 </Head>
 
 <ul>
+  <li>intrigued by 
+  <a href="">TypeScript</a> and 
+  <a href=""></a>Next.js</a></li>
 <li>
 Co organizer of [JAMstack Boston](https://www.meetup.com/JAMstack-Boston/members/?op=leaders)</li>
 <li>Father to a basketball crazed middle schooler 🏀 ❤️ 😁</li>
@@ -19,6 +22,5 @@ Co organizer of [JAMstack Boston](https://www.meetup.com/JAMstack-Boston/members
 inspired by Derek Sivers and
  <a href="https://nownownow.com/about"> the Now page movement</a>
 </p>
-</Layout>
-)
+</)
 }
