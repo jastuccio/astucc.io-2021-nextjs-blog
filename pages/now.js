@@ -11,6 +11,7 @@ return (
 <h1>Now - my current projects and interests</h1>
 <ul>
   <li>Intrigued by TypeScript and Next.js</li>
+  <li>Taking my knowledge to the next level with 'CSS for JSS' by Josh Comeau</li>
   <li>Co organizer of <a href="https://www.meetup.com/JAMstack-Boston/members">JAMstack Boston</a></li>
   <li>Father to a basketball crazed middle schooler 🏀 ❤️ 😁</li>
 </ul>
