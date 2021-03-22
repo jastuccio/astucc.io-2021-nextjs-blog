@@ -5,6 +5,7 @@ import remark from 'remark';
 import html from 'remark-html';
 
 const postsDirectory = path.join(process.cwd(), 'posts');
+//process.cwd() returns the "current working directory"
 
 export function getSortedPostsData() {
   // Get file names under /posts

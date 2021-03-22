@@ -1,5 +1,4 @@
 import { GetStaticProps, GetStaticPaths } from 'next';
-
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import Head from 'next/head';
 import Date from '../../lib/date';

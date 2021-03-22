@@ -17,7 +17,15 @@ interface BlogProps {
 function Blog({ posts }: BlogProps) {
   return (
     <>
-      <h1>Blog</h1>
+      <Head>
+        <title>tech blog+ - {siteTitle} - </title>
+      </Head>
+      <h1>This blog is a poem to myself... it helps me to code</h1>
+      <p>
+        I write about Next.js, TypeScript, coding tips, camping, kayaking, and
+        other adventures. Most of the tech posts appear on 
+        <a href="https://dev.to/jastuccio">dev.to/jastuccio.</a>
+      </p>
       {/* <VerticalSpacer /> */}
       <ul>
         {posts.map((post) => (
@@ -45,10 +53,10 @@ export async function getStaticProps() {
 }
 
 /******************************************************************
- * 
+ *
  * original code
- * 
- *******************************************************************
+ *
+ ******************************************************************
 export default function Blog(
   {
     //   postData,
