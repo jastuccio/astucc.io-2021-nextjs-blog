@@ -1,19 +1,21 @@
 import Head from 'next/head';
 import { siteTitle } from '../components/Layout';
-import { getSortedPostsData } from '../lib/posts';
+// import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../lib/date';
 import { GetStaticProps } from 'next';
 
-export default function Home({
-  allPostsData,
-}: {
-  allPostsData: {
-    date: string;
-    title: string;
-    id: string;
-  }[];
-}) {
+export default function Home(
+  {
+    //   allPostsData,
+    // }: {
+    //   allPostsData: {
+    //     date: string;
+    //     title: string;
+    //     id: string;
+    //   }[];
+  }
+) {
   return (
     <>
       <Head>
@@ -27,7 +29,7 @@ export default function Home({
       </section>
       <section>
         <h2>Blog</h2>
-        <ul>
+        {/* <ul>
           {allPostsData.map(({ id, date, title }) => (
             <li key={id}>
               <Link href={`/blog/${id}`}>
@@ -39,17 +41,17 @@ export default function Home({
               </small>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </section>
     </>
   );
 }
 
-export const getStaticProps: GetStaticProps = async () => {
-  const allPostsData = getSortedPostsData();
-  return {
-    props: {
-      allPostsData,
-    },
-  };
-};
+// export const getStaticProps: GetStaticProps = async () => {
+//   const allPostsData = getSortedPostsData();
+//   return {
+//     props: {
+//       allPostsData,
+//     },
+//   };
+// };
